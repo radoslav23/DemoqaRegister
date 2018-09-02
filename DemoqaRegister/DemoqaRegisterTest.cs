@@ -66,7 +66,7 @@ namespace DemoqaRegister
                 "1998",
                 "05555511111",
                 "QaUser46254181",
-                "spareemail02181@abv.bg",
+                "myuniqueemail536@abv.bg",
                 @"..\..\..\avatar.jpg",
                 "lorem ipsum",
                 "12345678",
