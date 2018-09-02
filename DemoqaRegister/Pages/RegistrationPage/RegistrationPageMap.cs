@@ -52,12 +52,16 @@ namespace DemoqaRegister.Pages.RegistrationPage
         //error messages
         public IWebElement NoNames => Wait.Until(x => x.FindElement(By.XPath("//*[@id=\"pie_register\"]/li[1]/div[1]/div[2]/span")));
 
+        public IWebElement NoHobbySelected => Wait.Until(x => x.FindElement(By.XPath("//*[@id=\"pie_register\"]/li[3]/div/div[2]/span")));
+
         public IWebElement NoValidPhone => Wait.Until(x => x.FindElement(By.XPath("//*[@id=\"pie_register\"]/li[6]/div/div/span")));
 
         public IWebElement NoUserName => Wait.Until(x => x.FindElement(By.XPath("//*[@id=\"pie_register\"]/li[7]/div/div/span")));
 
         public IWebElement NoValidEmail => Wait.Until(x => x.FindElement(By.XPath("//*[@id=\"pie_register\"]/li[8]/div/div/span")));
-                
+
         public IWebElement NoMatchingPasswords => Wait.Until(x => x.FindElement(By.XPath("//*[@id=\"pie_register\"]/li[12]/div/div/span")));
+
+        public IWebElement NotEnoughSymbolsPassword => Wait.Until(x => x.FindElement(By.XPath("//*[@id=\"pie_register\"]/li[11]/div/div/span")));
     }
 }
